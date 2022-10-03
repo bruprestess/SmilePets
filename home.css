@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./fotos/image0.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(124, 74, 100);
+}
+
+#container {
+    height: 100vh;
+}
+
+/*  */
+
+#container-nav {
+    background-color: rgb(85, 136, 153);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+
+#lista-nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 80px;
+}
+
+#lista-nav li {
+    display: flex;
+    height: 80px;
+    font-size: 1.35rem;
+}
+
+#lista-nav li a {
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    padding: 15px 60px 15px 60px;
+}
+
+#lista-nav li a:hover {
+    transition: 800ms;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.45rem;
+}
+
+
+
+#apresentacao-div {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 3.2rem;
+}
+
+.subtitulo{
+    color: white;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#foto {
+    margin-top: 50px;
+    width: 500px;
+}
+
+#titulo-contatos {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+#links-contatos {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 100px;
+}
+
+#gmail {
+    margin-top: 15px;
+}
+
+.contato-div a {
+    color: white;
+    text-decoration: none;
+}
+
+.contato-div a p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.contato-div a p:hover {
+    transition: 300ms;
+    color: darkgrey;
+    font-size: 1.5rem;
+}
+
+.contato-div a img:hover {
+    transition: 300ms;
+    width: 125px;
+}
+
+/*  */
+
+#informacoesP-container {
+    margin-top: 50vh;
+    padding-bottom: 10vh;
+}
+
+.titulo2 {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#fotoEDados-div {
+    display: flex;
+}
+
+#foto-div {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#foto-perfil {
+    width: 250px;
+    border: 8px double rgb(212, 156, 0);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#foto-div p {
+    color: white;
+    text-align: center;
+}
+
+#dados-div {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 60%;
+    color: white;
+}
