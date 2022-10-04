@@ -8,7 +8,7 @@ body {
     background-image: url("./fotos/image0.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgb(124, 74, 100);
+    background-color: #e7e4d8;
 }
 
 #container {
@@ -17,28 +17,27 @@ body {
 
 /*  */
 
-#container-nav {
-    background-color: rgb(85, 136, 153);
+#primeiraNav-div {
+    background-color: #72a793;
     width: 100%;
     height: 80px;
-    position: fixed;
     top: 0;
 }
 
-#lista-nav{
+#lista-primeiraNav{
     display: flex;
     justify-content: space-around;
     list-style: none;
     height: 80px;
 }
 
-#lista-nav li {
+.item-primeiraNav {
     display: flex;
     height: 80px;
     font-size: 1.35rem;
 }
 
-#lista-nav li a {
+.item-primeiraNav a {
     display: flex;
     align-items:center;
     text-decoration: none;
@@ -46,7 +45,7 @@ body {
     padding: 15px 60px 15px 60px;
 }
 
-#lista-nav li a:hover {
+.item-primeiraNav a:hover {
     transition: 800ms;
     color: black;
     background-color: rgb(238, 238, 238);
@@ -55,106 +54,138 @@ body {
     font-size: 1.45rem;
 }
 
+/*  */
 
 
-#apresentacao-div {
-    margin-top: 120px;
-    text-align: center;
+#container-nav2 {
+    background-color: #72a793;
+    width: 100%;
+    height: 80px;
+    /* position: fixed; */
+    top: 0;
 }
 
-.titulo{
-    color: white;
-    font-size: 3.2rem;
-}
-
-.subtitulo{
-    color: white;
-    margin-top: 10px;
-    font-size: 1.2rem;
-}
-
-#foto {
-    margin-top: 50px;
-    width: 500px;
-}
-
-#titulo-contatos {
-    margin-top: 50px;
-    font-size: 2rem;
-}
-
-#links-contatos {
-    margin-top: 40px;
+#lista-nav2 {
     display: flex;
     justify-content: space-around;
+    list-style: none;
+    height: 80px;
 }
 
-.logo {
-    width: 100px;
+#lista-nav2 li {
+    display: flex;
+    height: 80px;
+    font-size: 1.35rem;
 }
 
-#gmail {
-    margin-top: 15px;
-}
-
-.contato-div a {
-    color: white;
+#lista-nav2 li a {
+    display: flex;
+    align-items:center;
     text-decoration: none;
+    color: rgb(243, 243, 243);
+    padding: 15px 60px 15px 60px;
 }
 
-.contato-div a p {
-    margin-top: 10px;
-    font-size: 1.3rem;
-}
-
-.contato-div a p:hover {
-    transition: 300ms;
-    color: darkgrey;
-    font-size: 1.5rem;
-}
-
-.contato-div a img:hover {
-    transition: 300ms;
-    width: 125px;
+#lista-nav2 li a:hover {
+    transition: 800ms;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.45rem;
 }
 
 /*  */
 
-#informacoesP-container {
-    margin-top: 50vh;
-    padding-bottom: 10vh;
+#baner {
+    width: 100%;
+    height: 105vh;
 }
 
-.titulo2 {
-    color: white;
-    font-size: 1.8rem;
-    text-align: center;
+#fotoBaner {
+    width: 100%;
+    height: 100%;
 }
 
-#fotoEDados-div {
+#sobreNos-div {
+    background-color: #e7e4d8;
     display: flex;
+    margin: 100px 40px 100px 40px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
 }
 
-#foto-div {
-    margin-left: 100px;
-    margin-top: 15px;
+#textoSobreNos {
+
 }
 
-#foto-perfil {
-    width: 250px;
-    border: 8px double rgb(212, 156, 0);
-    border-radius: 50%;
-    margin-bottom: 10px;
+#textoSobreNos p {
+    width: 40%;
 }
 
-#foto-div p {
-    color: white;
+#tituloSobreNos {
+
+}
+
+#fotoSobreNos {
+    width: 300px;
+}
+
+#servicos-div {
     text-align: center;
 }
 
-#dados-div {
+#servicos-div h1 {
+
+}
+
+#servicos-div ul {
     margin-top: 50px;
-    margin-left: 100px;
-    width: 60%;
-    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.servico {
+
+}
+
+#produtos-div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#produtos-div h1 {
+
+}
+
+#produtos-div ul {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.produtos {
+
+}
+
+#contatos-div {
+    margin-top: 80px
+}
+
+#contatos-div-style {
+
+}
+
+.contato {
+
+}
+
+#mapa-foto {
+
 }
