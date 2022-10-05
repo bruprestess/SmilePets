@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,68 +8,116 @@
     <title>Petshop</title>
     <link rel="stylesheet" href="./home.css">
 </head>
+
 <body>
     <div id="container">
         <div id="primeiraNav-div">
             <nav>
-                <!-- <ul id="lista-primeiraNav">
-                    <li class="item-primeiraNav"><a href="">INFORMAÇÕES</a></li>
-                    <li class="item-primeiraNav"><a href="">EXPERIENCIAS</a></li>
-                    <li class="item-primeiraNav"><a href="">INICIO</a></li>
-                    <li class="item-primeiraNav"><a href="">HABILIDADES</a></li>
-                    <li class="item-primeiraNav"><a href="">PROJETOS</a></li>
-                </ul> -->
+                <ul id="lista-primeiraNav">
+                    <li></li>
+                    <li><input type="text" placeholder="O que você procura?"></li>
+                    <li><img class='icone' id="avatar"src="./fotos/avatar.png" alt=""></li>
+                    <li><img class='icone' id="cesta"src="./fotos/cesta.png" alt=""></li>
+                </ul>
             </nav>
         </div>
         <div id="baner">
             <img id="fotoBaner" src="./fotos/fotoBaner.jpg" alt="">
         </div>
-        <div id="container-nav2">
-            <nav>
-                <ul id="lista-nav2">
-                    <li class="item-li2"><a href="">SOBRE NÓS</a></li>
-                    <li class="item-li2"><a href="">SERVIÇOS</a></li>
-                    <li class="item-li2"><a href="">PRODUTOS</a></li>
-                    <li class="item-li2"><a href="">CONTATOS</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="sobreNos-div">
+        <div id="container2">
+            <div id="container-nav2">
+                <nav>
+                    <ul id="lista-nav2">
+                        <li class="item-li2"><a href="">SOBRE NÓS</a></li>
+                        <li class="item-li2"><a href="">SERVIÇOS</a></li>
+                        <li class="item-li2"><a href="">PRODUTOS</a></li>
+                        <li class="item-li2"><a href="">CONTATOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="sobreNos-div">
                 <div id="textoSobreNos">
                     <h1 id="tituloSobreNos">Sobre nós</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi alias ullam labore illo consequuntur voluptate officiis, pariatur iste. Quis hic, reiciendis veniam consequuntur fuga id. Deleniti, maiores voluptate. Explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi alias ullam labore
+                        illo consequuntur voluptate officiis, pariatur iste. Quis hic, reiciendis veniam consequuntur
+                        fuga id. Deleniti, maiores voluptate. Explicabo.</p>
                 </div>
                 <div>
                     <img id="fotoSobreNos" src="./fotos/fotoBaner.jpg" alt="">
                 </div>
-        </div>
-        <div id="servicos-div">
-            <h1>NOSSOS SERVIÇOS:</h1>
-            <ul>
-                <li class="servico">1</li>
-                <li class="servico">2</li>
-                <li class="servico">3</li>
-            </ul>
-        </div>
-        <div id="produtos-div">
-            <h1>COMPRE CONOSCO!</h1>
-            <ul>
-                <li class="produto">1</li>
-                <li class="produto">2</li>
-                <li class="produto">3</li>
-            </ul>
-        </div>
-        <div id="contatos-div">
-            <div id="contatos-div-style">
-                <h1>COMO ENCONTRAR A GENTE:</h1>
+            </div>
+            <div id="servicos-div">
+                <h1>NOSSOS SERVIÇOS:</h1>
                 <ul>
-                    <li class="contato">insta</li>
-                    <li class="contato">whatsapp</li>
-                    <li class="contato">fixo</li>
+                    <li class="servico">
+                        <img src="./fotos/banho.png" alt="banho">
+                        <p>BANHO</p>
+                    </li>
+                    <li class="servico">
+                        <img src="./fotos/tosa.png" alt="tosa">
+                        <p>TOSA</p>
+                    </li>
                 </ul>
             </div>
-            <img id="mapa-foto"src="" alt="">
+            <div id="produtos-div">
+                <h1>COMPRE CONOSCO!</h1>
+                <ul>
+                    <li class="produto">
+                        <img src="" alt="" class="foto-produto">
+                        <p class="nome-produto">marca</p>
+                        <p class="preco-produto">preço</p>
+                        <button class="btn-produto">COMPRAR</button>
+                    </li>
+                    <li class="produto">
+                        <img src="" alt="" class="foto-produto">
+                        <p class="nome-produto">marca</p>
+                        <p class="preco-produto">preço</p>
+                        <button class="btn-produto">COMPRAR</button>
+                    </li>
+                    <li class="produto">
+                        <img src="" alt="" class="foto-produto">
+                        <p class="nome-produto">marca</p>
+                        <p class="preco-produto">preço</p>
+                        <button class="btn-produto">COMPRAR</button>
+                    </li>
+                    <li class="produto">
+                        <img src="" alt="" class="foto-produto">
+                        <p class="nome-produto">marca</p>
+                        <p class="preco-produto">preço</p>
+                        <button class="btn-produto">COMPRAR</button>
+                    </li>
+                    <li class="produto">
+                        <img src="" alt="" class="foto-produto">
+                        <p class="nome-produto">marca</p>
+                        <p class="preco-produto">preço</p>
+                        <button class="btn-produto">COMPRAR</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div id="contatos-div">
+                <div id="contatos-div-style">
+                    <h1>COMO ENCONTRAR A GENTE:</h1>
+                    <ul>
+                        <li class="contato">insta</li>
+                        <li class="contato">whatsapp</li>
+                        <li class="contato">fixo</li>
+                    </ul>
+                </div>
+                <img id="mapa-foto" src="" alt="">
+            </div> -->
+            <div id="footer">
+                <div id="primeiraNav-div">
+                    <nav>
+                        <ul id="lista-primeiraNav">
+                            <!-- <li></li>
+                            <li><input type="text" placeholder="O que você procura?"></li>
+                            <li></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
