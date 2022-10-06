@@ -14,50 +14,92 @@
         <div id="primeiraNav-div">
             <nav>
                 <ul id="lista-primeiraNav">
-                    <li></li>
+                    <li><img id="logo" src="./fotos/Logo2.png" alt="marca"></li>
                     <li><input type="text" placeholder="O que você procura?"></li>
-                    <li><img class='icone' id="avatar"src="./fotos/avatar.png" alt=""></li>
-                    <li><img class='icone' id="cesta"src="./fotos/cesta.png" alt=""></li>
+                    <li><img class='icone' id="avatar" src="./fotos/avatar.png" alt=""></li>
+                    <li><img class='icone' id="cesta" src="./fotos/cesta.png" alt=""></li>
                 </ul>
             </nav>
         </div>
         <div id="baner">
-            <img id="fotoBaner" src="./fotos/fotoBaner.jpg" alt="">
+            <img id="fotoBaner" src="./fotos/baner.png" alt="">
         </div>
         <div id="container2">
             <div id="container-nav2">
                 <nav>
                     <ul id="lista-nav2">
-                        <li class="item-li2"><a href="">SOBRE NÓS</a></li>
-                        <li class="item-li2"><a href="">SERVIÇOS</a></li>
-                        <li class="item-li2"><a href="">PRODUTOS</a></li>
-                        <li class="item-li2"><a href="">CONTATOS</a></li>
+                        <li class="item-li2"><a class="link-nav2" href="">SOBRE NÓS</a></li>
+                        <li class="item-li2"><a class="link-nav2" href="">SERVIÇOS</a></li>
+                        <li class="item-li2"><a class="link-nav2" href="">PRODUTOS</a></li>
+                        <li class="item-li2"><a class="link-nav2" href="">CONTATOS</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="sobreNos-div">
                 <div id="textoSobreNos">
-                    <h1 id="tituloSobreNos">Sobre nós</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi alias ullam labore
+                    <p id="tituloSobreNos">Falando um pouco sobre nós...</p>
+                    <p id="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi alias
+                        ullam labore
+                        illo consequuntur voluptate officiis, pariatur iste. Quis hic, reiciendis veniam consequuntur
+                        fuga id. Deleniti, maiores voluptate. Explicabo. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Voluptatibus modi alias ullam labore
+                        illo consequuntur voluptate officiis, pariatur iste. Quis hic, reiciendis veniam consequuntur
+                        fuga id. Deleniti, maiores voluptate. Explicabo.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi alias ullam labore
+                        illo consequuntur voluptate officiis, pariatur iste. Quis hic, reiciendis veniam consequuntur
+                        fuga id. Deleniti, maiores voluptate. Explicabo.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi alias ullam labore
                         illo consequuntur voluptate officiis, pariatur iste. Quis hic, reiciendis veniam consequuntur
                         fuga id. Deleniti, maiores voluptate. Explicabo.</p>
                 </div>
+                <img src="" alt="">
                 <div>
                     <img id="fotoSobreNos" src="./fotos/fotoBaner.jpg" alt="">
                 </div>
             </div>
             <div id="servicos-div">
-                <h1>NOSSOS SERVIÇOS:</h1>
-                <ul>
-                    <li class="servico">
-                        <img src="./fotos/banho.png" alt="banho">
-                        <p>BANHO</p>
-                    </li>
-                    <li class="servico">
-                        <img src="./fotos/tosa.png" alt="tosa">
-                        <p>TOSA</p>
-                    </li>
-                </ul>
+                <div>
+                    <p id="servicos-titulo">CONHEÇA NOSSOS SERVIÇOS</p>
+                    <ul>
+                        <li class="servico">
+                            <img src="./fotos/banho.png" alt="banho">
+                            <p>BANHO</p>
+                        </li>
+                        <li class="servico">
+                            <img src="./fotos/tosa.png" alt="tosa">
+                            <p>TOSA</p>
+                        </li>
+                        <li class="servico">
+                            <img src="./fotos/hotelaria.png" alt="hotelaria">
+                            <p>HOTELARIA</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="div-explicacao">
+                    <div class="caixa-explicacao">
+                        <div class="caixa-titulo-explicacao">
+                            <p class="titulo-explicacao">TOSA/BANHO</p>
+                        </div>
+                        <div class="caixa-texto-explicacao">
+                            <p class="explicacao">Para banho e tosa, temos opções de pacote mensal, semanal e quinzenal.
+                                Em qualquer um deles o sistema de vigilância fica à disposição do cliente.
+                                Para horarios de Segunda a Sábado também oferecemos o serviço de taxi, para buscar e
+                                entregar seu pet na sua casa!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="caixa-explicacao">
+                        <div class="caixa-titulo-explicacao">
+                            <p class="titulo-explicacao">HOTELARIA</p>
+                        </div>
+                        <div class="caixa-texto-explicacao">
+                            <p class="explicacao">Durante a estadia dele no pet, temos opção de deixá-lo em um ambiente
+                                preparado para convivência com outros animais, com pré autorização do dono. Ao fim da
+                                estadia conosco, seu pet volta para casa de banho tomado!</p>
+                        </div>
+                    </div>
+                </div>
+                <a id="link-duvidas-servicos">DÚVIDAS?</a>
             </div>
             <div id="produtos-div">
                 <h1>COMPRE CONOSCO!</h1>
@@ -93,28 +135,21 @@
                         <button class="btn-produto">COMPRAR</button>
                     </li>
                 </ul>
+                <button id="btn-comprarMais">VER MAIS</button>
             </div>
-            <!-- <div id="contatos-div">
-                <div id="contatos-div-style">
-                    <h1>COMO ENCONTRAR A GENTE:</h1>
-                    <ul>
-                        <li class="contato">insta</li>
-                        <li class="contato">whatsapp</li>
-                        <li class="contato">fixo</li>
-                    </ul>
-                </div>
-                <img id="mapa-foto" src="" alt="">
-            </div> -->
-            <div id="footer">
-                <div id="primeiraNav-div">
-                    <nav>
-                        <ul id="lista-primeiraNav">
-                            <!-- <li></li>
-                            <li><input type="text" placeholder="O que você procura?"></li>
-                            <li></li> -->
-                        </ul>
-                    </nav>
-                </div>
+            <div id='footer'>
+                <h1>Entre em contato:</h1>
+                <ul>
+                    <li>
+                        <a href=""><img class="icone-footer" src="./fotos/instagram.png" alt="insta"></a>
+                    </li>
+                    <li>
+                        <a href=""><img class="icone-footer" src="./fotos/whatsapp.png" alt="whats"></a>
+                    </li>
+                    <li>
+                        <a href=""><img class="icone-footer" src="./fotos/telefone.png" alt="fixo"></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
