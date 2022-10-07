@@ -66,10 +66,10 @@
 /*  */
 
 #container-nav2 {
-    background-color: #eec5ce;
+    background-color: #B57854;
     width: 100%;
     height: 80px;
-    box-shadow: 5px 0px 10px black;
+    box-shadow: 0px 0px 12px black;
 }
 
 #lista-nav2 {
@@ -90,49 +90,62 @@
     align-items:center;
     text-decoration: none;
     padding: 15px 60px 15px 60px;
-    color: black;
+    color: white;
 }
 
 .link-nav2:hover {
-    transition: 800ms;
-    color: #ffff;
-    background-color: #B57854;
+    transition: 400ms;
+    background-color: #eca9b7;
     font-size: 1.45rem;
 }
 
 /*  */
 
 #container2 {
-    background-color: #eec5ce;
+    background-image: url("./fotos/fundo3.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #sobreNos-div {
-    background-color: #eec5ce;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #B57854;
     display: flex;
-    margin: 100px 40px 80px 40px;
-    box-shadow: 0px 0px 10px black;
+    margin: 75px 40px 50px 40px;
     border-radius: 5px;
     padding: 20px 35px 25px 35px;
 }
 
 #textoSobreNos {
-    width: 60%;
-    color: #ffff;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#div-style-sobreNos {
+    padding-top: 15px;
+    width: 70%;
 }
 
 #texto {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 1.3rem;
-text-align: justify;
+    padding: 0px 20px 15px 20px;
 }
 
 #tituloSobreNos {
     font-size: 2rem;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 #fotoSobreNos {
     width: 300px;
+}
+
+#imagem-textoSobreNos {
+    width: 400px;
 }
 
 #servicos-div {
@@ -143,7 +156,7 @@ text-align: justify;
 }
 
 #servicos-titulo {
-    color: #ffff;
+    color: black;
     font-size: 1.6rem;
 }
 
@@ -156,14 +169,13 @@ text-align: justify;
 
 .servico {
     text-align: center;
-    border: 5px groove #44d1e4;
     padding: 30px 30px 20px 30px;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px #B57854;
     cursor: pointer;
 }
 
 .servico:hover{
-    color: #44d1e4;
+    color: #888183;
     transition: 400ms;
     opacity: 0.7;
 }
@@ -175,6 +187,7 @@ text-align: justify;
 .servico img {
     width: 300px;
     border-radius: 10px;
+    border: 5px groove #B57854;
 }
 
 .servico p {
@@ -187,7 +200,7 @@ text-align: justify;
 #div-explicacao {
     margin-top: 80px;
     display: flex;
-    width: 90%;
+    width: 88%;
 }
 
 .caixa-explicacao {
@@ -195,10 +208,10 @@ text-align: justify;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 50%;
     border: 2px solid black;
-    background-color: #ebbda3;
-    border-radius: 10px;
+
+    /* color: white; */
 }
 
 .caixa-explicacao:not(:last-child){
@@ -242,9 +255,9 @@ text-align: justify;
 }
 
 #link-duvidas-servicos:hover{
-    transition: 300ms;
-    color: white;
-    text-decoration: underline solid 2px white;
+    transition: 100ms;
+    color: rgb(26, 26, 126);
+    text-decoration: underline solid 2px rgb(26, 26, 126);
 }
 
 /*  */
@@ -252,16 +265,15 @@ text-align: justify;
 #produtos-div {
     text-align: center;
     margin-top: 70px;
-    background-image: url("./fotos/fotoBaner.jpg");
+    width: 95%;
+    background-image: url("./fotos/fundoRacao.png");
     background-size: cover;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-bottom: 50px;
 }
 
 #produtos-div ul {
-    margin-top: 50px;
+    margin-top: 30px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -288,6 +300,10 @@ text-align: justify;
     background-color: #91614c;
 }
 
+.foto-produto {
+    width: 150px;
+}
+
 #btn-comprarMais {
     width: 150px;
     height: 60px;
@@ -306,18 +322,18 @@ text-align: justify;
 }
 
 #footer {
-    background-color: #91614c;
-    padding: 20px 0px;
+    background-color: #B57854;
     text-align: center;
+    justify-content: space-around;
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    width: 100%;
 }
 
 #footer  h1 {
     color: #e7e4d8;
+    font-size: 1.7rem;
 }
   
 #footer ul {
@@ -325,17 +341,12 @@ text-align: justify;
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    width: 90%;
 }
   
 #footer ul li {
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
-}
-
-#footer ul li:not(:last-child) {
-    margin-right: 200px;
+    cursor: pointer;
 }
 
 #logo-footer {
@@ -346,5 +357,9 @@ text-align: justify;
 }
 
 .icone-footer {
-    width: 100px;
+    width: 70px;
+}
+
+#logoPequeno-footer {
+    width: 200px;
 }
